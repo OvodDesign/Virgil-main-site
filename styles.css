@@ -1,0 +1,503 @@
+:root {
+    --bgcolor: white;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+
+    --navigationbg: #024BAD;
+    --virgilblue: #024BAD;
+    --virgildarkerblue: #002f6b;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply the basic body styling */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--bgcolor);
+    line-height: 1.6;
+    font-size: 16px;
+}
+/* disable horizontal scroll */
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.start {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* cahnge font family */
+
+}
+
+/* ______________________________________________________________ */
+
+.v1 {
+    background-image: url(/images/vectors/vector\ \(2\).png);
+    background-repeat: no-repeat;
+}
+
+.inspirational h2 {
+    position: relative;
+    max-width: 30%; /* Limits the width of the text container */
+    font-size: 3vw; /* Responsive font size based on the viewport width */
+    font-weight: 500;
+    color: var(--virgilblue);
+    margin-left: 13%;
+    line-height: 1.2; /* Adjust line height for proper spacing */
+    white-space: normal; /* Ensure text wraps to multiple lines */
+}
+
+.firstimage img{
+    margin-left: 30vw;
+    margin-top: -7vh;
+}
+
+.rightext h2{
+    position: relative;
+    max-width: 20vw;
+    text-align: end;
+    font-size: 4.5vw;
+    font-weight: 600;
+    margin-left: 55%;
+    margin-top: -55vh;
+    color: var(--virgilblue);
+}
+
+.rightext img{
+    position: absolute;
+    margin-left: 54.5vw;
+    margin-top: -31.5vh;
+    width: 23vw;
+}
+
+.firstimage p {
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-left: 30vw;
+    margin-top: 12vh;
+    color: var(--virgilblue);
+}
+
+.question img{
+    position: absolute;
+    margin-left: 28.5vw;
+    margin-top: -7vh;
+    width: 17vw;
+}
+
+.quote1 p{
+    font-size: 3vw;
+    font-weight: 400;
+    color: var(--virgilblue);
+    margin-left: 30vw;
+    margin-top: 1vh;
+}
+
+.quote1 img{
+    margin-top: 0vh;
+    margin-left: 88vw;
+    width: 3vw;
+}
+
+.inspirational img{
+    position: absolute;
+    margin-left: 18.5vw;
+    margin-top: -8vh;
+    width: 15vw;
+}
+
+.rightext .cross1{
+    width: 2vw;
+    margin-top: -8vh;
+    margin-left: 66vw;
+}
+
+.rightext .cross2{
+    width: 3vw;
+    margin-top: -8vh;
+    margin-left: 75vw;
+}
+
+.about img{
+    width: 97.8vw;
+    margin-top: 1vw;
+}
+
+.text1 {
+    position: relative;
+    width: 35vw;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 14vh;
+    color: var(--virgilblue);
+    font-weight: 600;
+}
+.text1 img{
+    position: absolute;
+    width: 1.2vw;
+    margin-top: -12vw;
+    margin-left: -2vw;
+}
+
+.text1 img:nth-of-type(2){ 
+    position: absolute;
+    width: 3vw;
+    margin-top: -10vw;
+    margin-left: -24vw;
+}
+
+.text2 {
+    position: relative;
+    width: 27vw;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-left: 56vw;
+    margin-top: -19vh;
+    color: var(--virgilblue);
+    font-weight: 600;
+}
+
+.text2 img{
+    position: absolute;
+    width: 2.4vw;
+    margin-top: -10vw;
+    margin-left: -2vw;
+}
+
+.text2 img:nth-of-type(2){ 
+    position: absolute;
+    width: 2vw;
+    margin-top: -9vw;
+    margin-left: -15vw;
+}
+
+.text2 img:nth-of-type(3){ 
+    position: absolute;
+    width: 13vw;
+    margin-top: -6vw;
+    margin-left: -2vw;
+}
+
+.text2 img:nth-of-type(4){ 
+    position: absolute;
+    width: 5vw;
+    margin-top: -4.2vw;
+    margin-left: -12.5vw;
+}
+
+.text3 {
+    width: 36vw;
+    font-size: 1.4vw;
+    text-align: center;
+    margin-left: 38vw;
+    margin-top: 15vh;
+    color: var(--virgilblue);
+    font-weight: 600;
+}
+
+.text3 img:nth-of-type(2){ 
+    /* nth-of-type(2) targets second image within div <3 */
+    /* yaay i learned something new I won't be documenting in my portfolio */
+    position: absolute;
+    width: 1.5vw;
+    margin-top: -9vw;
+    margin-left: 18vw;
+}
+
+.whois img{
+    width: 99.1vw;
+}
+
+.errorimg{
+    width: 24vw;
+    margin-top: -10vw;
+    margin-left: -64vw;
+}
+
+.whoisva p{
+    width: 20vw;
+    font-size: 1.7vw;
+    text-align: center;
+    margin-left: 61vw;
+    margin-top: 11vh;
+    color: var(--virgilblue);
+    font-weight: 600;
+}
+
+.whoisva img{
+    width: 24vw;
+    margin-top: -4.5vw;
+    margin-left: 59vw;
+}
+
+.intro{
+    position: relative;
+}
+
+.intro p{
+    text-align: left;
+    width: 25vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin-top: 5vh;
+    color: var(--virgilblue);
+}  
+
+.intro .first  {
+    margin-left: 42vw;
+    width: 30vw;
+}
+.intro .third  {
+    margin-left: 42vw;
+}
+
+.intro .second{
+    margin-left: 53vw;
+    width: 30vw;
+}
+
+.intro .fourth{
+    margin-left: 53vw;
+}
+
+.intro .fourth{
+    width: 37vw;
+}
+
+.imageabout img{
+    width: 24vw;
+    margin-top: -32.5vw;
+    margin-left: 11vw;
+}
+
+.imageaboutframe img{
+    width: 26vw;
+    margin-top: -36.5vw;
+    margin-left: 10vw;
+}
+
+.heart1{
+    width: 4vw;
+    margin-left: 88vw;
+    margin-top: 0vh;
+}
+
+.keycontributions h2 {
+    position: relative;
+    font-size: 3vw;
+    font-weight: 600;
+    color: var(--virgilblue);
+    margin-left: 11vw;
+    line-height: 1.2;
+}
+
+.keycontributions img{
+    position: absolute;
+    width: 2vw;
+    margin-top: 2vh;
+    margin-left: 37vw;
+}
+
+.contributions p:nth-of-type(1){
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 5vh;
+    margin-left: 11vw;
+    color: var(--virgilblue);
+}
+
+.contributions p:nth-of-type(2){
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: -5vh;
+    margin-left: 34vw;
+    color: var(--virgilblue);
+}
+
+.contributions p:nth-of-type(3){
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 4vh;
+    margin-left: 11vw;
+    color: var(--virgilblue);
+}
+
+.contributions p:nth-of-type(4){
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: -4.5vh;
+    margin-left: 45vw;
+    color: var(--virgilblue);
+}
+
+
+.contributions p:before {
+    content: '•'; 
+    margin-right: 10px; 
+    color: var(--virgilblue); 
+    font-size: 1.2em; 
+}
+
+.somedrawings img{
+    position: absolute;
+    width: 11vw;
+    margin-top: 7vh;
+    margin-left: 62vw;
+}
+
+.big img{
+    width: 99vw;
+}
+
+.iconic img{
+width: 98vw;
+}
+
+/* duffelbag */
+.iconicworks img:nth-of-type(1){
+    position: relative;
+    width: 50vw;
+    margin-top: 4vh;
+    margin-left: 8vw;
+}
+/* cd */
+.iconicworks img:nth-of-type(3){
+    position: absolute;
+    width: 30vw;
+    margin-top: -59vh;
+    margin-left: 62vw;
+}
+/* belt */
+.iconicworks img:nth-of-type(5){
+
+    width: 30vw;
+    margin-top: 10vh;
+    margin-left: 12vw;
+}
+
+/* theten */
+.iconicworks img:nth-of-type(7){
+    width: 40vw;
+    margin-top: -45vh;
+    margin-left: 51vw;
+}
+
+.iconicworks p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: var(--virgilblue);
+}
+/* lv bag text */
+.iconicworks p:nth-of-type(1){
+    margin-top: 2vh;
+    margin-left: 22vw;
+    color: var(--virgilblue);
+}
+/* yeezus text */
+.iconicworks p:nth-of-type(2){
+    margin-top: -4vh;
+    margin-left: 72vw;
+    color: var(--virgilblue);
+}
+
+.iconicworks p:nth-of-type(3){
+    margin-top: 2vh;
+    margin-left: 19vw;
+    color: var(--virgilblue);
+}
+
+.iconicworks p:nth-of-type(4){
+    margin-top: 0vh;
+    margin-left: 63vw;
+    color: var(--virgilblue);
+}
+/* frames */
+
+/* duffelbag */
+.iconicworks img:nth-of-type(2){
+    position: absolute;
+    width: 53vw;
+    margin-top: 1vh;
+    margin-left: -51.5vw;
+}
+/* cd */
+.iconicworks img:nth-of-type(4){
+    position: absolute;
+    width: 32vw;
+    margin-top: -61vh;
+    margin-left: 61vw;
+}
+/* belt */
+.iconicworks img:nth-of-type(6){
+    position: absolute;
+    width: 30vw;
+    margin-top: 7vh;
+    margin-left: -30vw;
+}
+
+/* theten */
+.iconicworks img:nth-of-type(8){
+    width: 43vw;
+    margin-top: -55vh;
+    margin-left: 49.5vw;
+}
+
+.final img{
+    width: 100%;
+    margin-left: -0.1vw;
+}
+
+.iconicworks a{
+    color: var(--virgilblue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 3vh;
+    margin-left: 76vw;
+
+}
+
+/* sidebar nav */
+.sidebar-nav {
+    position: fixed;
+    top: 65vh;
+    left: 2vw;
+    font-size: 1.5vw;
+    z-index: 100;
+}
+
+.sidebar-nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 2vh; 
+}
+
+.sidebar-nav a {
+    text-decoration: none; 
+    color: var(--virgildarkerblue); 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+    font-size: 3vh;
+}
+
+.sidebar-nav a:hover {
+    color: #000; 
+}
